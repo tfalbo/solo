@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Intro to Linux</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+	font-weight: normal;
+								            }
+	.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+        /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+
+      </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+      class: center, middle, inverse
+
+      # Intro to Linux
+
+      ---
+      layout: false
+      .left-column[
+      ## Quem sou eu
+      ]
+      .right-column[
+
+      .right[![Euzitcha](img/euzitcha.jpeg)]
+      ### .right[Thaíssa Falbo]
+      ### .right[Estudante de Engenharia da Computação na PUC-Rio]
+      ### .right[[www.thaissa.eng.br](http://www.thaissa.eng.br)]
+      ]
+      ---
+
+
+      # Linux em todos os lugares
+
+      .center[![Linux Everywhere](img/linux-everywhere.jpg)]
+
+      ---
+
+      # Linux em todos os lugares
+
+      * O Linux é rápido, leve e portátil, podendo ser utilizado em várias aplicações
+      * Desktop
+      * Supercomputadores
+      * Smartphones
+      * Microprocessadores e Microcontroladores
+      * Carros inteligentes
+      * Cloud
+      * Robótica
+      * Internet das Coisas
+
+
+      ---
+      layout: false
+      .left-column[
+      ## O que é um Sistema Operacional
+      ]
+      .right-column[
+      .center[![Modern Operating Systems](img/modernoperatingsystems.jpg)]
+      ]
+      ---
+
+      # O que é um Sistema Operacional
+
+      * É um conjunto de programas que funciona como uma camada entre os usuários e o hardware.
+
+      * Um sistema operacional administra todo o software e hardware de um computador. Na maior parte do tempo, há diferentes programas sendo executados simultaneamente, e todos eles precisam de recursos (CPU, memória e armazenamento). O sistema operacional coordena tudo isso para ter certeza que todos os programas tenham acesso ao que precisam.
+
+
+      .center[![Sistema Operacional](img/sistema-operacional.png)]
+      
+
+      ---
+      # Um pouco de história
+
+      .center[![Linux History](img/linuxhistory.png)]
+
+      ---
+      layout: false
+      .left-column[
+      ## O UNIX
+      
+      ]
+      .right-column[
+
+      * Sistema criado na década de 60 por Ken Thompson e Dennis Ritchie nos laboratório Bell Labs da AT&T
+      * Sistema caro e voltado para computadores de grande porte
+      * Comercializado e com código fechado
+
+
+      .center[![Thompson and Ritchie](img/thompson-ritchie.jpg)]
+
+      ]
+
+      ---
+
+      layout: false
+      .left-column[
+      ## O GNU
+
+      ]
+      .right-column[
+      * 1983 - Richard Stallman cientista do MIT lança o projeto GNU (GNUs not Unix) que tinha a pretensão de criar um sistema operacional do tipo Unix gratuito, em função do desagravo de muitos programadores que haviam contribuído para o aprimoramento do Unix e consideravam injustos que a AT&T e outros se apropriassem do fruto deste trabalho.
+      * 1985 - Para organizar o trabalho do projeto GNU, Stallman e outros criam a Free Software Foundation (FSF) uma corporação sem fins lucrativos que busca promover softwares gratuitos eliminando restrições à cópia, redistribuição estudo e modificação do mesmo formulando assim a licença GPL (GNU General Public License).
+
+      .center[![Stallman](img/stallman.jpg)]
+
+      
+      ]
+
+      ---
+
+      layout: false
+      .left-column[
+      ## O Linux
+      ]
+      .right-column[
+      * 1989 - Um estudante finlandês chamado Linus Torvalds inicia um processo pessoal de aprimoramento do Kernel do Minix um sistema operacional do tipo Unix escrito por Andrew Tannenbaum, chamando esta vertente de Linux como abreviação de Linus's Minix.
+      1992 - No início deste ano, o Linux se integra a GNU com o objetivo de produzir um sistema operacional completo. Unindo Kernel + Softwares GNU, originando o sistema operacional que chamamos de GNU/Linux.
+
+      ![Livro Minix](img/livro-minix.jpg)
+      ![Linus Torvalds](img/linus-torvalds.jpg)
+      
+      ]
+
+      ---
+
+
+      # O GNU/Linux
+
+      .center[![GNU/Linux](img/gnu-linux.png)]
+
+      ---
+     
+      # O GNU/Linux
+
+      * Portátil
+      * Seguro
+      * Código aberto, ou seja, que pode ser customizado de acordo com a necessidade
+      * É um Software Livre com desenvolvedores colaborando no mundo todo
+      * O super usuário tem total controle sobre o sistema operacional
+      Preencher mais com inspiração https://www.linux.com/what-is-linux
+
+      ---
+
+      # Distribuições (Distros)
+
+      .center[![Linux Distros](img/linux-distros.png)]
+
+      ---
+
+      # Distribuições (Distros)
+
+      O Linux tem um número diferentes de versões para atender qualquer tipo de usuário. Dos iniciantes aos experientes, você pode encontrar o "sabor" de Linux que atende a sua necessidade. Estas versões são chamadas distribuições(distros). A maioria das distribuições podem ser baixadas gratuitamente.
+
+      **Ubuntu**: Mantida pela Canonical. É baseado em Debian. Interface de usuário avançada e amigável. Voltada para o uso em desktop.
+
+
+      **Fedora**: Mantida pela RedHat. É a base para o RedHat. Novas tecnologias da RedHat são lançadas primeiro e testadas no Fedora.
+
+      Saiba mais: 
+      * [https://www.linux.com/what-is-linux](https://www.linux.com/what-is-linux)
+      * [https://www.linux.com/news/software/applications/775873-the-best-linux-distribution-for-new-users](https://www.linux.com/news/software/applications/775873-the-best-linux-distribution-for-new-users)
+
+      ---
+
+      class: center, middle, inverse
+
+      # O Dia-a-Dia com o GNU/Linux
+
+      ---
+
+      # Edição de Texto e Documentos
+
+      .center[![LibreOffice](img/libreoffice.png)]
+
+      ---
+
+      # Edição de Imagens
+
+      .center[![Gimp and Inkscape](img/gimp-inkscape.png)]
+
+      ---
+
+      # Web
+
+      ![Chrome](img/chrome.jpg)
+      ![Firefox](img/firefox.png)
+      ![Skype](img/skype.png)
+      ![Spotify](img/spotify.png)
+
+      ---
+
+      # Desenvolvimento
+
+      * O GNU/Linux já vem com a maioria das linguagens de programação instaladas
+      * Criar um ambiente de desenvolvimento é mais fácil
+      * Vários editores de texto funcionam com o Linux
+      * Várias IDEs funcionam com o Linux
+
+      ---
+
+      class: center, middle, inverse
+
+
+      # Tipos de Instalação
+
+      ---
+
+      # Instalação em Máquina Virtual
+
+      * Utiliza o Virtual Box para criar uma máquina virtual 
+      * "Um computador dentro do seu computador"
+      * Máquinas virtuais podem ser criadas e destruídas à vontade
+      * Dificuldade para utilizar a interface gráfica
+
+
+      ---
+
+      # Instalação em Dual Boot
+
+      * O HD é particionado, criando uma partição para a distribuição GNU/Linux ser instalada.
+      * O sistema desejado deve ser escolhido no momento do boot
+      * Um backup dos arquivos é recomendado antes de ser feito o particionamento
+      * Há que verificar se há espaço livre suficiente para o particionamento
+
+
+
+      ---
+
+      # Instalação Nativa
+
+      * O computador é formatado e uma distribuição GNU/Linux é instalada ocupando todo o HD
+      * Backup dos arquivos é necessária! 
+      * Todo o HD fica dedicado ao GNU/Linux
+
+      ---
+
+      class: center, middle, inverse
+
+
+      # Vamos Instalar ??? :)
+
+    
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
