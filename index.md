@@ -2,7 +2,7 @@
 layout: default
 ---
 
-My name is Thaissa and I am a Computer Engineering student at [PUC-Rio](http://www.puc-rio.br) (Rio de Janeiro, Brazil).
+My name is Thaissa and I am developer and sysadmin based in Rio de Janeiro, Brazil. I currently work at [Globo.com](https://www.globo.com).
 If you want to see what I am up to, check out my [blog](http://blog.thaissa.eng.br)!
 
 ## Contact me
